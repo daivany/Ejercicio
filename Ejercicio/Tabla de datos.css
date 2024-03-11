@@ -1,0 +1,74 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+.menu {
+    width: 200px;
+    height: 100%;
+    background-color: plum;
+    position: fixed;
+    left: 0;
+    top: 0;
+}
+
+.menu ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.menu ul li {
+    padding: 15px;
+}
+
+.menu ul li a {
+    text-decoration: none;
+    color: black;
+    display: flex;
+    align-items: center; 
+    padding: 10px;
+}
+
+.menu ul li a i {
+    margin-right: 10px;
+    font-size: 20px; 
+}
+
+.menu ul li a:hover {
+    background-color: bisque;
+}
+table, td, tr, th {
+    border: 1px solid black;
+    text-align: center;
+    padding: 1rem;
+    margin-top: 60px;
+    margin-left: 200px;
+
+}
+
+tr:nth-of-type(1) > td {
+    background: brown;
+    color: #fff;
+}
+
+th:hover {
+    background: rgb(254, 214, 254);
+}
+h1{ 
+    text-align: center;
+    margin-top: 60px;
+    margin-left: 150px;
+    
+}
+.porfile{
+    width: 100px;
+    height: 100px;
+    border-radius: 50px;
+    margin-left: 50px;
+    margin-top: 20px;
+    margin-bottom: 50px;
+}
+
+
